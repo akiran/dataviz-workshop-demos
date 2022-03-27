@@ -4,6 +4,31 @@ Kiran Abburi
 
 ---
 
+#
+
+### What is Data Visualization?
+
+Data visualization is the graphical representation of information and data using visual elements like charts, graphs, and maps.
+
+---
+
+Helps us understand trends and patterns faster
+
+Example: Coronavirus stats chart
+![](./src/images/coronavirus.png)
+
+---
+
+### Data Visualization Libraries
+
+- D3
+- Wrappers of D3
+- React Wrappers of D3
+- Config driven libraries
+- Antv
+
+---
+
 # D3
 
 - Pros
@@ -16,17 +41,21 @@ Kiran Abburi
 
 ---
 
-# DC
+### D3 Wrappers
 
-- Wrapper on top D3
-
----
-
-# Nivo
+C3.js, DC.js
 
 ---
 
-## Echarts
+### React D3 Wrappers
+
+Nivo, Recharts, VX, React-vis
+
+---
+
+### Config driven libraries
+
+Echarts, highcharts
 
 - Pros
   - Out of the box support for commonly used charts
@@ -37,7 +66,7 @@ Kiran Abburi
 
 ---
 
-# Antv
+### AntV
 
 - Pros
   - Full suite of tools for data visualization
@@ -48,7 +77,7 @@ Kiran Abburi
 
 ---
 
-## Ant Design Charts
+### Ant Design Charts
 
 ![](./src/images/antd-charts.png)
 Source: Ant Design Charts Docs

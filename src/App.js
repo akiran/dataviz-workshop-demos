@@ -5,10 +5,11 @@ import DCDemo from "./components/comparision/dc";
 import NivoDemo from "./components/comparision/nivo";
 import EChartsDemo from "./components/comparision/echarts";
 import AntvDemo from "./components/comparision/antv";
+import C3Demo from "./components/comparision/c3";
 
 function App() {
   return (
-    <div className="text-3xl">
+    <div className="">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/d3" element={<D3Demo />} />
@@ -16,6 +17,7 @@ function App() {
         <Route path="/nivo" element={<NivoDemo />} />
         <Route path="/echarts" element={<EChartsDemo />} />
         <Route path="/antv" element={<AntvDemo />} />
+        <Route path="/c3" element={<C3Demo />} />
       </Routes>
     </div>
   );

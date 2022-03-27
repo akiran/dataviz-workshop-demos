@@ -64,6 +64,7 @@ function renderBarChart(element) {
     .range([0, width])
     .domain(data.map((d) => d.Country))
     .padding(0.2);
+
   svg
     .append("g")
     .attr("transform", `translate(0, ${height})`)
