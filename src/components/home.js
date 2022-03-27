@@ -27,9 +27,6 @@ export default function Home() {
         <li>
           <Link to="/crypto">Crypto</Link>
         </li>
-        <li>
-          <Link to="/coronavirus">Coronavirus</Link>
-        </li>
       </ul>
     </div>
   );

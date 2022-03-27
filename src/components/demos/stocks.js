@@ -6,6 +6,7 @@ export default function Stocks() {
   const config = {
     data: metaStockData,
     height: 400,
+    width: 600,
     xField: "date",
     yField: "price",
     // point: {

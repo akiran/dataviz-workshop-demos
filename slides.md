@@ -61,6 +61,36 @@ Why we choose Antv?
 
 Rendering of charts
 
+- SVG or Canvas
+
+---
+
+## SVG
+
+- Pros
+  - Data visualization will be responsive and scale well with the view size
+  - Better accessibility
+- Cons
+  - This could result in poor performance for a large number of data points
+
+---
+
+## Canvas
+
+- Pros
+  - Good performance even with a large number of data points
+- Cons
+  - Don't scale well with the view size changes, need to re-draw.
+  - Less accessible compared to SVG
+
+---
+
+## Best Practices
+
+- Don’t render any data visualizations that are not in the user viewport.
+- Use canvas instead of SVG for rendering data visualizations when there are a lot of data points
+- Avoid unnecessary re-renders.
+
 ---
 
 # Thank You

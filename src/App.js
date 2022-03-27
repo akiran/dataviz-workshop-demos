@@ -7,7 +7,6 @@ import EChartsDemo from "./components/comparision/echarts";
 import AntvDemo from "./components/comparision/antv";
 import StocksDemo from "./components/demos/stocks";
 import CryptoDemo from "./components/demos/crypto";
-import CoronavirusDemo from "./components/demos/coronavirus";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
 
         <Route path="/stocks" element={<StocksDemo />} />
         <Route path="/crypto" element={<CryptoDemo />} />
-        <Route path="/coronavirus" element={<CoronavirusDemo />} />
       </Routes>
     </div>
   );
