@@ -5,8 +5,6 @@ import DCDemo from "./components/comparision/dc";
 import NivoDemo from "./components/comparision/nivo";
 import EChartsDemo from "./components/comparision/echarts";
 import AntvDemo from "./components/comparision/antv";
-import StocksDemo from "./components/demos/stocks";
-import CryptoDemo from "./components/demos/crypto";
 
 function App() {
   return (
@@ -18,9 +16,6 @@ function App() {
         <Route path="/nivo" element={<NivoDemo />} />
         <Route path="/echarts" element={<EChartsDemo />} />
         <Route path="/antv" element={<AntvDemo />} />
-
-        <Route path="/stocks" element={<StocksDemo />} />
-        <Route path="/crypto" element={<CryptoDemo />} />
       </Routes>
     </div>
   );

@@ -20,14 +20,6 @@ export default function Home() {
           <Link to="/antv">Antv</Link>
         </li>
       </ul>
-      <ul className="my-8 mx-4">
-        <li>
-          <Link to="/stocks">Stocks</Link>
-        </li>
-        <li>
-          <Link to="/crypto">Crypto</Link>
-        </li>
-      </ul>
     </div>
   );
 }
